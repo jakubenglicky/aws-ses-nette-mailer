@@ -1,0 +1,23 @@
+{
+  "name": "jakubenglicky/aws-ses-nette-mailer",
+  "type": "library",
+  "license": "MIT",
+  "description": "",
+  "keywords": [],
+  "authors": [
+    {
+      "name": "Jakub Englický",
+      "email": "jakubenglicky@gmail.com"
+    }
+  ],
+  "autoload": {
+    "classmap": ["src/"]
+  },
+  "require": {
+    "aws/aws-sdk-php": "^3.59",
+    "nette/mail": "^2.4"
+  },
+  "require-dev": {
+    "tracy/tracy": "^2.5"
+  }
+}
