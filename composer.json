@@ -14,10 +14,12 @@
     "classmap": ["src/"]
   },
   "require": {
+    "php": "^7.2",
     "aws/aws-sdk-php": "^3.59",
     "nette/mail": "^2.4"
   },
   "require-dev": {
-    "tracy/tracy": "^2.5"
+    "tracy/tracy": "^2.5",
+    "phpstan/phpstan": "^0.10.5"
   }
 }
