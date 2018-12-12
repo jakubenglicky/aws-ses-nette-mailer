@@ -2,8 +2,8 @@
   "name": "jakubenglicky/aws-ses-nette-mailer",
   "type": "library",
   "license": "MIT",
-  "description": "",
-  "keywords": [],
+  "description": "AWS SES implementation for Nette",
+  "keywords": ["aws", "mailer", "email"],
   "authors": [
     {
       "name": "Jakub Englický",
@@ -20,6 +20,7 @@
   },
   "require-dev": {
     "tracy/tracy": "^2.5",
-    "phpstan/phpstan": "^0.10.5"
+    "phpstan/phpstan-shim": "^0.10.6",
+    "pd/coding-standard": "^1.16"
   }
 }

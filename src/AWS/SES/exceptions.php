@@ -1,7 +1,6 @@
-<?php
+<?php declare(strict_types = 1);
 
-namespace jakubenglicky\AWS\Ses;
-
+namespace jakubenglicky\AWS\SES;
 
 class RegionException extends \Exception
 {
